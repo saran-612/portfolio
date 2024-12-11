@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'Redressed';
+    src: url(../assets/font/Redressed-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../assets/font/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "after";
+    src: url(../assets/font/aftersick.otf);
+}
+
+@font-face {
+    font-family: nun;
+    src: url(../assets/font/NunitoSans.ttf);
+}
+@font-face {
+    font-family: txt;
+    src: url(../assets/font/Euphoria.ttf);
+}
+body{
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1{
+    color: #d6ad60;
+    font-family: redressed;
+    font-size: 2em;
+    margin-top: 0;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -28px;
+    gap: 20px;
+}
+.container div a{
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.container div a:hover {
+    color: #d6ad60;
+}
+
+.bar{
+    width: 100%;
+    height: 50px;
+    background-color: #F5F5F7;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.sk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 5em;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B76E79;
+    font-size: 2.0em;
+    font-family: after;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.work-resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: 50px;
+}
+.Work{
+    height: 36px;
+    width: 100px;
+    background-color: #000;
+    border:1px solid #000;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Work a{
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: color 0.3s ease;
+}
+.Work a:hover {
+    color: #d6ad60;
+}
+.resume{
+    height: 36px;
+    width: 100px;
+    color: #000;
+    background-color: #f2f2f2;
+    border:1px solid #000;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border 0.3s ease;
+}
+.resume a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.resume:hover{
+    border:1px solid #d6ad60;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+}
+.pht{
+    height: 500px;
+    width: 375px;
+    position: relative;
+    margin: 75px;
+    float: right;
+    background-image: url(../assets/image/saran.jpeg);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+.title_about{
+    width: 800px;
+    font-size: 4em;
+    margin: 50px;
+    margin-top: 75px;
+    position: relative;
+    top: 50px;
+    font-family: nun;
+    font-weight: 600;
+}
+.s_about{
+    font-size: 1.2em;
+    width: 800px;
+    margin: 50px;
+    color: #464646;
+    letter-spacing: .5px;
+    line-height: auto;
+    margin-top: 75px;
+    position: relative;
+    font-family: roboto;
+}
+.exp_con{
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-left: 50px;
+    gap: 25px;
+}
+.exp{
+    height: 36px;
+    width: 100px;
+    background-color: #d6ad60;
+    border:1px solid #d6ad60;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp a{
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: color 0.3s ease;
+}
+.exp a:hover {
+    color: #000;
+}
+.con{
+    height: 36px;
+    width: 100px;
+    color: #000;
+    background-color: #f2f2f2;
+    border:1px solid #d6ad60;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border 0.3s ease;
+}
+.con a{
+    text-decoration: none;
+    color: #d6ad60;
+    
+}
+.con:hover{
+    border:1px solid #000;
+}
+.work_with{
+    height: 100vh;
+}
+
+.work_with_title{
+    color: #000;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 9em;
+    font-weight: 1000;
+    margin-top: 200px;
+}
+.to {
+    color: #B76E79;
+    font-size: 1em;
+    font-family: txt;
+    font-weight: 100;
+    margin-top: 0;
+    position: relative;
+    top: 220px;
+}
+.work_con{
+    height: 36px;
+    width: 100px;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border:2px solid #d6ad60;
+    border-radius: 25px;
+    margin-top: 100px;
+    transition: border 0.3s ease;
+}
+.work_con a{
+    text-decoration: none;
+    color: #d6ad60;
+    transition: color 0.3s ease;
+}
+.work_con a:hover{
+    color: #000;
+    
+}
+.work_con:hover{
+    border:1px solid #000;
+}
+.end{
+    height: 20vh;
+    width: 100%;
+}
+.end_line{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    top: 25px;
+}
+.saran_end_logo{
+    color: #d6ad60;
+    font-family: redressed;
+    font-size: 2em;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+.container_end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+    top: 10px;
+    gap: 20px;
+}
+.container_end div a{
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.container_end div a:hover {
+    color: #d6ad60;
+}
+.saran_copy{
+    margin-top: 35px;
+    margin-left: 15px;
+}
