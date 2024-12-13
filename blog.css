@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Redressed';
+    src: url(../assets/font/Redressed-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../assets/font/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "after";
+    src: url(../assets/font/aftersick.otf);
+}
+
+@font-face {
+    font-family: nun;
+    src: url(../assets/font/NunitoSans.ttf);
+}
+@font-face {
+    font-family: txt;
+    src: url(../assets/font/Euphoria.ttf);
+}
+body{
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1{
+    color: #d6ad60;
+    font-family: redressed;
+    font-size: 2em;
+    margin-top: 0;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -28px;
+    gap: 20px;
+}
+.container div a{
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.container div a:hover {
+    color: #d6ad60;
+}
+
+.bar{
+    width: 100%;
+    height: 50px;
+    background-color: #F5F5F7;
+}
+.abo{
+    width: 100%;
+    height: 100vh;
+}
+.end{
+    height: 15vh;
+    width: 100%;
+}
+.end_line{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    top: 25px;
+}
+.saran_end_logo{
+    color: #d6ad60;
+    font-family: redressed;
+    font-size: 2em;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+.container_end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+    top: 10px;
+    gap: 20px;
+}
+.container_end div a{
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.container_end div a:hover {
+    color: #d6ad60;
+}
+.saran_copy{
+    margin-top: 35px;
+    margin-left: 15px;
+}
