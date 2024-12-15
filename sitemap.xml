@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://saran-612.github.io/portfolio/</loc> <!-- Homepage URL -->
+        <lastmod>2024-12-15</lastmod> <!-- Last modified date -->
+        <priority>1.00</priority> <!-- Priority of the homepage -->
+    </url>
+    <url>
+        <loc>https://saran-612.github.io/portfolio/html/about.html</loc> <!-- About page URL -->
+        <lastmod>2024-12-15</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://saran-612.github.io/portfolio/html/blog.html</loc> <!-- blog page URL -->
+        <lastmod>2024-12-15</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://saran-612.github.io/portfolio/html/contact.html</loc> <!-- Contact page URL -->
+        <lastmod>2024-12-15</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>
