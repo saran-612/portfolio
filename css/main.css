@@ -470,7 +470,7 @@ h1{
     }
 
     .work_with {
-        height: 50vh;
+        height: 100vh;
         padding: 20px 0;
     }
 
@@ -494,8 +494,7 @@ h1{
     }
 
     .end {
-        height: auto;
-        padding: 20px 0;
+        height: 30vh;
     }
 
     .end_line {
