@@ -287,7 +287,10 @@ h1{
     background-size: cover;
 }
 
-
+.work_with{
+    height: 80vh;
+    width: 100%;
+}
 
 .work_with_title{
     color: #000;
